@@ -9,7 +9,7 @@
 @media screen and (max-width: 375px){
 
     /* lesson section */
-    
+
     .container{
         max-width: 100%;
     }
@@ -17,6 +17,10 @@
     .row{
         flex-direction: column;
         gap: 60px;
+    }
+
+    h1{
+        font-size: 2.4rem;
     }
 
     .lessons .col {
@@ -39,4 +43,19 @@
         width: 100%;
     }
 
+    
+    /* why us bgcolor */
+    
+    .why-us .container {
+        background-color: #222;
+        padding: 50px 15px;
+    }
+
+    .steps{
+        margin-bottom: 0;
+    }
+
+    .why-us{
+        margin-bottom: 0;
+    }
 }
