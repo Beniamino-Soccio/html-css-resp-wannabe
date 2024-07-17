@@ -4,3 +4,20 @@
         max-width: 100%;
     }
 }
+
+/*375px*/
+@media screen and (max-width: 375px){
+    .container{
+        max-width: 100%;
+    }
+
+    .row{
+        flex-direction: column;
+        gap: 60px;
+    }
+
+    .lessons .col {
+        width: 100%;
+    }
+
+}
