@@ -7,6 +7,9 @@
 
 /*375px*/
 @media screen and (max-width: 375px){
+
+    /* lesson section */
+    
     .container{
         max-width: 100%;
     }
@@ -17,6 +20,22 @@
     }
 
     .lessons .col {
+        width: 100%;
+    }
+
+    /* steps section */
+
+    .steps .col {
+        width: 100%;
+    }
+
+    /* why us section*/
+
+    .why-us .col-left {
+        width: 100%;
+    }
+
+    .why-us .col-right {
         width: 100%;
     }
 
